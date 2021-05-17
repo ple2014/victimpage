@@ -1,0 +1,90 @@
+table{ width : 60%; margin-left : auto; margin-right : auto; }
+table td { font-size : 25px; font-weight : bold; border-bottom : dotted 1px; text-align : center;}
+#security_form { margin-left : 30%; }
+
+
+
+/* member */
+#member { font-size : 40px; border-bottom : solid 3px; color : #6BEC62; width:25%; margin-left : 40%;}
+.duplicate {  width:7%; height:4%; background:#FFFFFF; border-color : #BDBDBD; position:absolute; margin-left : 3%;}
+.member_form{ width:50%; height:100%;  margin-left : 30%; border-radius : 2em; border:solid; text-align : center;}
+.member_line { border-bottom : dotted 2px; width : 35%; margin-left : 35%;}
+.member_input { width:25%; height:5%; border:none; }
+.modify_input { width:25%; height:5%; border:1px solid; }
+.modify{ width:15%; height:5%; background:#FFFFFF; border-color : #BDBDBD;   }
+#member_modify_ok{ margin-left : 45%; margin-top : 3%;}
+.member_form label{ font-weight : bold; }
+#member_join_ok{ margin-left : 10%; padding : 3%; }
+	/* login */
+	#login h1,#member h1 { font-size : 40px; color : #000000;}
+	#login { font-size : 40px; border-bottom : solid 3px; color : #6BEC62; width:25%; }
+	#login_form, #login_ok{ margin-left : 45%; }
+	.id, .pw{ margin-left : 1%; width:25%; height:5%; border : none; }
+	.login{ width:30%; height:5%; background:#FFFFFF; border-color : #BDBDBD;  }
+	.login_line { border-bottom : dotted 2px; width : 35%; }
+	/* login end*/
+/* member end */
+
+/* member_idm (insert, delete, modify)*/
+#member_idm h3{ font-size : 40px; font-weight : bold; }
+#member_idm { font-size : 30px; margin-left : 30%; width : 40%; }
+/* member_idm (insert, delete, modify) end */
+
+/*button*/
+.board_list_button { width : 5%; height : 7%; float : right; margin-top : 3%; margin-right : 13%; background:#FFFFFF; border-color : #BDBDBD;}
+.board_write_button { font-weight : bold; width : 5%; height : 7%; float : right; margin-top : 2%; margin-right : 13%; background:#FFFFFF; border-color : #BDBDBD;}
+.board_write_button2 { font-weight : bold; width : 7%; height : 7%; float : left; margin-top : 2%; margin-left : 73%; background:#FFFFFF; border-color : #BDBDBD;}
+.board_delete_button { font-weight : bold; width : 5%; height : 7%; float : left; margin-top : 2%; margin-left : 35%; background:#FFFFFF; border-color : #BDBDBD;}
+/*button end*/
+
+/* board*/
+#board_list_form {  height : 60%;}
+#board_list_form h3, #board_write_form h3, #board_view_form h3 { font-size : 30px; text-align : center;}
+#board_list_form th { font-size : 20px; padding : 5px; border-bottom : dotted; background : #D9E5FF; }
+#board_list_find { float:left; margin-left : 35%; margin-top : 5%;}
+#page { margin-top : 3%; margin-right : 20%; }
+#board_write_form th { font-size : 20px; padding : 5px; border-bottom : 1px solid; width : 30%; background : #FAF4C0;}
+#board_write_tr1 input { height : 35px; width : 600px;}
+#board_write_tr2 textarea { height : 400px; width:600px;}
+#writer { font-weight : bold; font-size : 20px; }
+#board_view_form_div0 { height : 70%; width : 50%; margin-left : auto; margin-right : auto; border : 2px solid; }
+.board_view_form_div1 { font-size : 25px; border : 3px solid; padding : 5px; background : #D5D5D5; }
+.board_view_form_div2 { font-size : 25px; float:left; padding : 3%;}
+.board_view_file { float : left; margin-left : 50%; padding : 1%; font-weight : bold; }
+.content { width : 50%; height : 70%;}
+/* board end*/
+
+/* welcome_card 
+.card:hover{ transform:rotate(180deg); transition: all 0.3s ease-in-out;} */
+#welcome_main{	margin-left : 30%; }
+.back-content_middle{ position: absolute; top: 45%; left: 60%; transform translate(-50%, -50%); color : #FFFFFF; }
+/* welcome_card end */
+
+/* chat */
+.chathistory{ min-height : 600px; width: 600px; margin: 10px auto; paading: 10px; background : #EAEAEA; text-align:left;}
+.centeralised{ margin:10px auto; width:1000px; text-align:center;}
+.textarea {min-height:100px; width:600px; margin:10px auto; padding:10px;}
+.singlemessage{ font-size:12px; padding:5p; border-bottom:1px solid #b3b3b3; }
+/* chat end */
+
+/* security */
+#security_form { width : 70%; height :100%;}
+/* security end */
+
+/* job */
+#job_nav { float : left; margin-top : 5%; margin-left : 3%; margin-right : 1%; font-weight : bold; width : 17%; height : 45%; 
+font-size : 40px; text-align : center; font-weight : bold;}
+#job_nav h1 { font-size : 25px; }
+.job_nav_h1 { width:70%; height:17%; border-radius : 2em; border : solid; margin-left : 15%; margin-top:5%;}
+.job_container  { width : 100%; height : 180%;  text-align : center; }
+.job_box { width : 40%; height : 18%; background : #EAEAEA; margin-left : 7%; margin-top : 3%;  text-align : center; float:left;}
+.job_box2 { width : 40%; height : 18%; background : #EAEAEA; margin-right : 10%; margin-top : 3%; text-align : center; float: right; }
+.job_box3 { width : 40%; height : 18%; background : #EAEAEA; margin-left : 28%; margin-top : 3%;  text-align : center; float:left;}
+.job_box4 { width : 40%; height : 18%; background : #EAEAEA; margin-right : 10%; margin-top : 3%; text-align : center; float: right; }
+.job_line { border-bottom : solid 2px; width: 20%; margin-left : 50%; color : #DAD9FF; }
+.job_image { float:right; margin-top : 3%; margin-right : 10%;}
+.job_image2 { float:left; margin-top : 3%; margin-left : 7%; }
+.job_image4 { float:left; margin-top : 3%; margin-left : 28%;}
+.job_grade {  color : #FF0000; }
+.job_grade_container { float:right; margin-right: 27%;}
+/* job end */
